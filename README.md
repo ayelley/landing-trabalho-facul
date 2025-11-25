@@ -31,5 +31,3 @@ python -m http.server 8000
 ## Autor
 
 Giulliano Castro Andrade Rocha
-
-Repositório: https://github.com/ayelley/landing-trabalho-facul
