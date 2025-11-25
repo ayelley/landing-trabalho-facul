@@ -1,14 +1,57 @@
+# Protótipo — Fazenda Sol Nascente
+
+Protótipo de uma landing page criado como parte de uma candidatura a estágio. O projeto demonstra a integração de HTML5, CSS3 e JavaScript para uma solução fictícia do setor agrícola — **Fazenda Sol Nascente**.
+
+## Conteúdo
+
+- `Landing trabalho facul.html` — página principal do protótipo.
+- `styles.css` — estilos personalizados.
+- `script.js` — comportamento e validação do formulário.
+- `README.md` — documentação do repositório.
+
+## Como visualizar localmente
+
+1. Abra `Landing trabalho facul.html` no navegador (duplo clique).
+
+2. (Opcional) Executar um servidor local para testar rotas/recursos:
+
+```powershell
+cd "C:\Users\Castr\Desktop\Projetos VSCode\Trabalho facul\Landing"
+python -m http.server 8000
+# Em seguida abra: http://localhost:8000/Landing%20trabalho%20facul.html
+```
+
+## Principais funcionalidades
+
+- Layout responsivo com Bootstrap.
+- Cards de soluções com estilos e efeitos CSS.
+- Formulário de contato com validação client-side e feedback acessível.
+- Boas práticas de acessibilidade (atributos `aria-*`, `aria-live`, navegação por teclado).
+
+## Melhorias sugeridas
+
+- Conectar o formulário a um serviço de backend (API / serviço de e-mail).
+- Adicionar testes E2E (Playwright/Cypress) e linting (ESLint/Stylelint).
+- Otimização de imagens e build pipeline (minificação, cache).
+
+## Autor
+
+Giulliano Castro Andrade Rocha
+
+## Licença
+
+Este repositório pode ser usado para fins educacionais. Se desejar, posso adicionar uma `LICENSE` (MIT) neste repositório.
+
+Repositório: https://github.com/ayelley/landing-trabalho-facul
 # Protótipo — Fazenda Sol Nascente (Candidatura a Estágio)
 
-Este repositório contém um protótipo de landing page desenvolvido como parte de uma candidatura a estágio em desenvolvimento web. O projeto representa um cliente fictício, **Fazenda Sol Nascente**, e foi criado para demonstrar conhecimentos práticos em front-end.
-
-> ATENÇÃO: Substitua o marcador `[Seu Nome]` no `README.md` e no rodapé do HTML pelo seu nome antes de enviar a candidatura.
+Este repositório contém um protótipo de landing page desenvolvido como parte de um trabalho da faculdade em desenvolvimento web. O projeto representa um cliente fictício, **Fazenda Sol Nascente**, e foi criado para demonstrar conhecimentos práticos em front-end.
 
 ## Objetivo do protótipo
 
 Apresentar um projeto pequeno e funcional que demonstre:
 
-- Conhecimento de HTML5 semântico e uso de `id` para navegação.
+- Conhecimento de HTML5 semântico e uso de id para navegação.
 - Organização de estilos com CSS3 externo, uso de variáveis e pseudoclasses.
 - Interatividade com JavaScript: validação, feedback ao usuário e navegação suave.
 - Uso de framework (Bootstrap) para layout responsivo e componentes.
@@ -45,18 +88,6 @@ http://localhost:8000/Landing%20trabalho%20facul.html
 - Formulário com validação client-side e feedback inline (`invalid-feedback` do Bootstrap).
 - Elementos acessíveis (atributos `aria-*`, `role`, `aria-live`).
 
-## Como personalizar antes de enviar a candidatura
-
-1. Substitua `[Seu Nome]` no rodapé do arquivo `Landing trabalho facul.html` e atualize o título do README com seu nome.
-2. Adicione um arquivo `CV.pdf` ou link para o seu portfólio, se desejar.
-3. Se quiser, capture screenshots e inclua em uma pasta `assets/` para anexar ao e-mail de candidatura.
-
-## Checklist da apresentação (sugestão)
-
-- [ ] Abrir o protótipo e navegar pelas seções.
-- [ ] Mostrar o código-fonte (estruturas de HTML, CSS e JS).
-- [ ] Explicar as decisões de design (por que Bootstrap, por que validação no cliente etc.).
-- [ ] Enumerar melhorias futuras (integração backend, testes E2E, otimização de imagens).
 
 ## Sugestões de melhorias técnicas (para discutir na entrevista)
 
@@ -66,7 +97,4 @@ http://localhost:8000/Landing%20trabalho%20facul.html
 
 ## Licença
 
-Uso educacional. Sinta-se livre para adaptar o código; recomenda-se incluir crédito ao autor original quando reutilizar.
-
----
-Protótipo preparado para candidatura — personalize o nome e envie boa sorte!
+Uso educacional. Sinta-se livre para adaptar o código;
