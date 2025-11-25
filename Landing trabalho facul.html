@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Soluções digitais para a Fazenda Sol Nascente — demonstração de integração HTML5, CSS3 e JavaScript.">
+    <title>Protótipo — Fazenda Sol Nascente (Candidatura a Estágio)</title>
+    <!-- Favicon (placeholder) -->
+    <link rel="icon" href="https://placehold.co/32x32?text=FS" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Folha de estilos externa -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header class="bg-light" id="topo">
+      <nav class="container navbar navbar-expand-lg navbar-light" role="navigation" aria-label="Menu principal">
+        <a class="navbar-brand fw-bold d-flex align-items-center" href="#topo">
+          <img src="Fazenda Sol Nascente.png" alt="Logotipo Fazenda Sol Nascente" width="40" height="40" class="me-2 rounded" loading="lazy">Fazenda Sol Nascente
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#solucoes">Soluções</a></li>
+            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link btn-cta" href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero (ID example) -->
+    <section id="hero" class="text-white text-center d-flex align-items-center" aria-labelledby="hero-title">
+      <div class="container">
+        <h1 id="hero-title" class="display-5">Soluções digitais para a Fazenda Sol Nascente</h1>
+        <p class="lead">Protótipo funcional criado como parte da candidatura a estágio. Demonstração de HTML5, CSS3 e JavaScript integrados para um cliente do setor agrícola.</p>
+        <div class="d-flex justify-content-center gap-2 mt-3">
+          <a href="#contato" class="btn btn-primary btn-lg">Solicitar demonstração</a>
+          <a href="#protótipo" class="btn btn-outline-light btn-lg">Sobre o protótipo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Protótipo: objetivo e autor -->
+    <section id="protótipo" class="container py-5">
+      <div class="row mt-3">
+        <div class="col-md-6">
+          <h3>Objetivos técnicos</h3>
+          <ul>
+            <li>HTML5 semântico e seções com id para navegação.</li>
+            <li>CSS externo com classes reutilizáveis e pseudoclasses.</li>
+            <li>JavaScript para validação, UX e interatividade.</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3>Sobre o candidato</h3>
+          <p><strong>Nome:</strong> Giulliano Castro Andrade Rocha
+        </div>
+      </div>
+    </section>
+
+    <!-- Features (Class example + nth-child pseudo) -->
+    <section id="solucoes" class="container py-5">
+      <h2 class="mb-4">Nossas Soluções</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <article class="feature p-4 shadow-sm h-100">
+            <h3>Monitoramento</h3>
+            <p>Telemetria e alertas em tempo real para plantações e gado.</p>
+            <a href="#" class="link-more">Saiba mais</a>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="feature p-4 shadow-sm h-100">
+            <h3>Gestão</h3>
+            <p>Dashboards e relatórios para tomada de decisão.</p>
+            <a href="#" class="link-more">Saiba mais</a>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="feature p-4 shadow-sm h-100">
+            <h3>Integração</h3>
+            <p>APIs abertas para integrar sensores e ERPs agrícolas.</p>
+            <a href="#" class="link-more">Saiba mais</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre (class + pseudoclasses focus for accessibility demo) -->
+    <section id="sobre" class="bg-light py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2>Sobre o cliente — Fazenda Sol Nascente</h2>
+            <p>A Fazenda Sol Nascente é um cliente fictício criado para exemplificar a aplicação de soluções digitais no campo, incluindo monitoramento, gestão e integração de dados.</p>
+            <ul class="list-unstyled">
+              <li class="mb-2"><strong>Setor:</strong> Produção agrícola e pecuária.</li>
+              <li class="mb-2"><strong>Desafio:</strong> Otimizar a irrigação e o manejo do rebanho com dados acessíveis.</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <img src="C:\Users\Castr\Desktop\Projetos VSCode\Trabalho facul\Landing\manchas-produtivas.png" alt="Mapa de cultivo da Fazenda Sol Nascente" class="img-fluid rounded" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato (form com id e pseudoclasses para :focus) -->
+    <section id="contato" class="container py-5">
+      <h2>Contato — Solicitação de Demonstração</h2>
+      <p>Preencha o formulário abaixo para que entremos em contato com uma proposta personalizada para a Fazenda Sol Nascente.</p>
+      <form id="form-contato" class="row g-3 needs-validation" novalidate aria-describedby="form-help">
+        <div id="form-help" class="visually-hidden">Campos obrigatórios: Nome, E-mail e Mensagem.</div>
+
+        <div class="col-md-6">
+          <label for="nome" class="form-label">Nome <span class="text-danger">*</span></label>
+          <input id="nome" name="nome" class="form-control" type="text" required aria-required="true" aria-describedby="nomeHelp">
+          <div id="nomeFeedback" class="invalid-feedback">Por favor, informe seu nome.</div>
+        </div>
+
+        <div class="col-md-6">
+          <label for="email" class="form-label">E-mail <span class="text-danger">*</span></label>
+          <input id="email" name="email" class="form-control" type="email" required aria-required="true" placeholder="seu@exemplo.com" aria-describedby="emailHelp">
+          <div id="emailFeedback" class="invalid-feedback">Por favor, informe um e-mail válido.</div>
+        </div>
+
+        <div class="col-md-6">
+          <label for="telefone" class="form-label">Telefone (opcional)</label>
+          <input id="telefone" name="telefone" class="form-control" type="tel" placeholder="(00) 00000-0000" pattern="\(?\d{2}\)?\s?\d{4,5}-?\d{4}">
+          <div class="invalid-feedback">Formato de telefone inválido.</div>
+        </div>
+
+        <div class="col-md-6 d-flex align-items-end">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="consent" required>
+            <label class="form-check-label" for="consent">Autorizo contato para demonstração <span class="text-danger">*</span></label>
+            <div class="invalid-feedback">É necessário autorizar o contato.</div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <label for="mensagem" class="form-label">Mensagem <span class="text-danger">*</span></label>
+          <textarea id="mensagem" name="mensagem" class="form-control" rows="4" required aria-required="true" aria-describedby="mensagemHelp"></textarea>
+          <div id="mensagemFeedback" class="invalid-feedback">Por favor, escreva sua mensagem.</div>
+        </div>
+
+        <div class="col-12 d-flex align-items-center">
+          <button type="submit" class="btn btn-success me-2" id="submitBtn">
+            <span id="btnText">Enviar</span>
+            <span id="btnSpinner" class="spinner-border spinner-border-sm ms-2 visually-hidden" role="status" aria-hidden="true"></span>
+          </button>
+          <button type="button" id="limpar" class="btn btn-outline-secondary ms-2">Limpar</button>
+          <div id="form-result" class="ms-3" aria-live="polite"></div>
+        </div>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3" role="contentinfo">
+      <div class="container d-flex justify-content-between align-items-center">
+        <small>&copy; 2025 Fazenda Sol Nascente (cliente fictício)</small>
+        <div class="text-end">
+          <div class="small">Protótipo por <strong>[Seu Nome]</strong> — Candidato a Estágio</div>
+          <div class="mt-1"><a href="#topo" class="text-decoration-none text-white me-3">Voltar ao topo</a><a href="#" class="text-decoration-none text-white">Política de Privacidade</a></div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Script personalizado -->
+    <script src="script.js"></script>
+  </body>
+</html>
